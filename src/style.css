@@ -55,8 +55,8 @@ p {
 }
 
 #weather-icon {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 .icon img {
@@ -67,4 +67,13 @@ p {
 .other-details {
   display: flex;
   gap: 1rem;
+}
+
+form input,
+form button {
+  font-size: 1.2rem;
+}
+
+#weather-icon {
+  border-radius: 1rem;
 }
