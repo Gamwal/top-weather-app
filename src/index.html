@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Check The Forecast</h1>
+    <form action="GET">
+      <div>
+        <input type="text" placeholder="City" />
+        <button type="submit">Check</button>
+      </div>
+    </form>
+    <div id="weather-display-div">
+      <div>
+        <p id="city">City</p>
+        <p id="time">Time</p>
+      </div>
+      <div>
+        <p id="current-temp">Current temparature:</p>
+        <p id="weather-condition">cloudy</p>
+      </div>
+      <div>
+        <p id="wind-speed">100 km/h</p>
+        <p id="rain-probability">80%</p>
+        <p id="sunlight-hours">3 hrs</p>
+      </div>
+      <div id="weather-icon"></div>
+    </div>
+  </body>
+</html>
