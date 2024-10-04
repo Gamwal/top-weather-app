@@ -14,20 +14,38 @@
       </div>
     </form>
     <div id="weather-display-div">
-      <div>
+      <div id="top">
         <p id="city">City</p>
         <p id="time">Time</p>
       </div>
-      <div>
-        <p id="current-temp">Current temparature:</p>
-        <p id="weather-condition">cloudy</p>
+      <div id="middle">
+        <p id="current-temp">33 C</p>
+        <p id="weather-condition">Cloudy</p>
       </div>
-      <div>
-        <p id="wind-speed">100 km/h</p>
-        <p id="rain-probability">80%</p>
-        <p id="sunlight-hours">3 hrs</p>
+      <div id="bottom">
+        <div>
+          <div class="other-details">
+            <div class="icon">
+              <img src="./icons/weather-windy.svg" alt="" />
+            </div>
+            <div id="wind-speed">100 km/h</div>
+          </div>
+          <div class="other-details">
+            <div class="icon">
+              <img src="./icons/water-outline.svg" alt="" />
+            </div>
+            <div id="rain-probability">80%</div>
+          </div>
+          <div class="other-details">
+            <div class="icon">
+              <img src="./icons/sun-clock-outline.svg" alt="" />
+            </div>
+            <div id="sunlight-hours">3 hrs</div>
+          </div>
+        </div>
+        <img src="" alt="" />
+        <div id="weather-icon">🌞</div>
       </div>
-      <div id="weather-icon"></div>
     </div>
   </body>
 </html>
