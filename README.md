@@ -105,5 +105,3 @@ weather-forecast-app/
 ### License:
 
 This project is open-source.
-
-Feel free to customize this `README.md` further or add details about new features implemented!
