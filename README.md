@@ -14,10 +14,6 @@ This is a simple web application that lets you check the current weather for any
   - Sunlight hours (difference between sunrise and sunset)
 - A dynamic weather icon based on the conditions, fetched from the Giphy API!
 
-### Demo
-
-Check out a live demo (if available) or see it in action by following the installation instructions below.
-
 ### Technologies Used:
 
 - **HTML/CSS:** Building the webpage structure and styling.
